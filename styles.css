@@ -1,0 +1,69 @@
+#heading {
+	margin-left: 12%;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-size: 46px;
+}
+.icon {
+	height: 50px;
+	width: 50px;
+	margin-right: 15px;
+}
+#pin-container {
+	margin-left: 10%;
+	margin-right: 10%;
+ 	column-count: 4;
+    column-gap: 1em;
+  	padding: 10px;
+  	height: 100%;
+  	opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+
+}
+.item {
+	display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+  	margin-bottom: 10px;
+  	border-radius: 10px;
+
+}
+.pic {
+	border-radius: 20px;
+	border: 0px; 
+	width: 350px;
+	background-color: #D2B48C;
+}	
+.img-responsive a {
+	border-style: none;
+}
+#pin-container :hover {
+	opacity: 0.9;
+}
+.caption h4 {
+	padding-left: 5%;
+	font-size: 25px;
+	font-family: 'Questrial', sans-serif;
+	font-style: bold;
+}
+.caption {
+	padding-left: 5%;
+	text-align: left;
+	font-size: 15px;
+}
+.pinner {
+	padding-left: 8%;
+	color: black;
+	font-size: 15px;
+}
+.pinner-pic {
+	padding-left: 7px;
+	height: 27px;
+	width: 35px;
+}
+.pinCount {
+	color: grey;
+}
